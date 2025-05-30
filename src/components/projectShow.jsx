@@ -1,7 +1,7 @@
 import React from "react";
 import "../css/projectShow.css";
 import ProjectsCardData from "./ProjectsCardData";
-import ProjectsCard from "./ProjectsCard";
+import ProjectsCard from "./projectsCard";
 
 const ProjectShow = () => {
   return (

@@ -1,0 +1,36 @@
+.project-container{
+    max-width: 1440px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 40px;
+    padding-bottom: 5rem;
+    padding-top: 4rem;
+}
+
+.project-card{
+    border: 1px solid rgb(79, 79, 79);
+    border-radius: 15px;
+    padding: 1.2rem 1rem;
+}
+
+.project-card img{
+    width: 100%;
+}
+
+@media screen and (max-width: 640px) {
+  .project-container {
+    max-width: 90%;
+    margin: auto;
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (min-width: 640px) and (max-width: 1024px){
+  .project-container {
+    max-width: 90%;
+    margin: auto;
+    grid-template-columns: repeat(2,1fr);
+  }
+}
+

@@ -13,26 +13,18 @@ function About() {
   return (
     <section className="bg-gray-900 font-outfit">
       <div className="flex flex-row p-12 h-full">
-        <div className="flex flex-col gap-3 items-center justify-center w-full">
+        <div className="flex flex-col gap-3 items-start justify-start w-full top-0 left-0">
           <h3 className="text-center text-2xl text-green-500">
             user@cybermachine:~$ whoami
           </h3>
-          <h4 className="text-center text-xl text-gray-400">
-            I am Toshan Mandal, a passionate Web developer and ML enthusiast
-            <br />
-            who loves turning ideas into interactive and visually appealing web
-            experiences.
-            <br />I have a continous drive to learn, and with my knowledge. I
-            would love to contribute
-            <br />
-            in the evergrowing Technology to build user-friendly and performance
-            optimized solutions.
+          <h4 className="text-center text-xl text-gray-400 max-w-2xl">
+            I am Toshan Mandal, a passionate Web developer and ML enthusiast who loves turning ideas into interactive and visually appealing web experiences. have a continous drive to learn, and with my knowledge. I would love to contribute in the evergrowing Technology to build user-friendly and performance optimized solutions.
           </h4>
         </div>
         <div className="img-container max-w-[700px] items-center text-center">
           <div className="img">
             <img
-              className="img max-w-[90%] border-2 border-gray rounded-2xl aspect-[4.5/5]"
+              className="img max-w-[70%] border-2 border-gray rounded-2xl aspect-[4.5/5] md:max-w-[90%] border-2 border-gray rounded-2xl aspect-[4.5/5]"
               src="https://images.unsplash.com/photo-1618477247222-acbdb0e159b3?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHJlYWN0fGVufDB8fDB8fHww"
               alt="ImgStack1"
             />

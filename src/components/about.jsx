@@ -24,7 +24,7 @@ function About() {
         <div className="img-container place-self-center">
           <div className="img flex justify-center">
             <img
-              className="img rounded-3xl h-[10rem] md:rounded-xl border-2 max-w-sm md:h-[30rem] "
+              className="img rounded-xl h-[8rem] md:rounded-xl border-2 max-w-sm md:h-[30rem] "
               src="https://images.unsplash.com/photo-1618477247222-acbdb0e159b3?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHJlYWN0fGVufDB8fDB8fHww"
               alt="ImgStack1"
             />

@@ -6,8 +6,8 @@ import ProjectsCard from "./projectsCard";
 const ProjectShow = () => {
   return (
     <div className="work-container bg-gray-900">
-      <div className=" flex flex-col justify-center items-center p-16">
-        <p className="text-5xl bg-clip-text text-transparent bg-gradient-to-r from-purple-700 via-blue-500 to-purple-700 font-bold">MY PROJECTS</p>
+      <div className=" flex flex-col justify-center items-center p-12">
+        <p className="text-4xl font-bold md:text-5xl bg-clip-text text-transparent bg-gradient-to-r from-purple-700 via-blue-500 to-purple-700">MY PROJECTS</p>
         <div className="project-container">
           {ProjectsCardData.map((val, index) => {
             return (

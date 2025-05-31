@@ -18,13 +18,17 @@ function About() {
             user@cybermachine:~$ whoami
           </h3>
           <h4 className="text-left flex text-sm text-gray-400 max-w-2xl md:text-xl">
-            I am Toshan Mandal, a passionate Web developer and ML enthusiast who loves turning ideas into interactive and visually appealing web experiences. have a continous drive to learn, and with my knowledge. I would love to contribute in the evergrowing Technology to build user-friendly and performance optimized solutions.
+            I am Toshan Mandal, a passionate Web developer and ML enthusiast who
+            loves turning ideas into interactive and visually appealing web
+            experiences. have a continous drive to learn, and with my knowledge.
+            I would love to contribute in the evergrowing Technology to build
+            user-friendly and performance optimized solutions.
           </h4>
         </div>
         <div className="img-container place-self-center">
           <div className="img flex justify-center">
             <img
-              className="img rounded-xl h-[8rem] md:rounded-xl border-2 max-w-sm md:h-[30rem] "
+              className="img max-w-xs md:max-w-md rounded-xl h-[7rem] md:rounded-2xl border-2 md:h-[30rem] "
               src="https://images.unsplash.com/photo-1618477247222-acbdb0e159b3?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHJlYWN0fGVufDB8fDB8fHww"
               alt="ImgStack1"
             />
@@ -32,45 +36,43 @@ function About() {
         </div>
       </div>
 
-      <div className="">
-        <div className="max-w-sm md:max-w-3xl lg:max-w-4xl mx-auto bg-gray-900 border rounded-3xl py-12 hover:bg-gray-700 hover:shadow-md hover:shadow-blue-700 ease-in-out duration-500 transform hover:translate-y-1 hover: scale-105">
-          <div className="pb-8 flex justify-center items-center text-3xl bg-clip-text text-transparent bg-gradient-to-r from-purple-700 via-blue-500 to-purple-700 font-bold">
-            MY EXPERIENCE
+      <div className="max-w-sm mx-auto md:max-w-3xl lg:max-w-4xl bg-gray-900 border rounded-3xl py-12 hover:bg-gray-700 hover:shadow-md hover:shadow-blue-700 ease-in-out duration-500 transform hover:translate-y-1 hover:scale-105">
+        <div className="pb-8 flex justify-center items-center text-3xl bg-clip-text text-transparent bg-gradient-to-r from-purple-700 via-blue-500 to-purple-700 font-bold">
+          MY EXPERIENCE
+        </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 items-start pl-5 gap-3">
+          <div className="flex flex-row items-center justify-start gap-4">
+            <PulsingDot />
+            <div className="text-white">Passionate about Web Development</div>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 items-start pl-6 gap-3">
-            <div className="flex flex-row items-center justify-start gap-3">
-              <PulsingDot />
-              <div className="text-white">Passionate about Web Development</div>
+          <div className="flex flex-row items-center justify-start gap-4">
+            <PulsingDot />
+            <div className="text-white">
+              Familiar with Tailwind CSS and modern frameworks
             </div>
-            <div className="flex flex-row items-center justify-start gap-3">
-              <PulsingDot />
-              <div className="text-white">
-                Familiar with Tailwind CSS and modern frameworks
-              </div>
+          </div>
+          <div className="flex flex-row items-center justify-start gap-4">
+            <PulsingDot />
+            <div className="text-white">
+              1+ years of experience building responsive websites
             </div>
-            <div className="flex flex-row items-center justify-start gap-3">
-              <PulsingDot />
-              <div className="text-white">
-                1+ years of experience building responsive websites
-              </div>
+          </div>
+          <div className="flex flex-row items-center justify-start gap-4">
+            <PulsingDot />
+            <div className="text-white">
+              Actively seeking full-time developer opportunities
             </div>
-            <div className="flex flex-row items-center justify-start gap-3">
-              <PulsingDot />
-              <div className="text-white">
-                Actively seeking full-time developer opportunities
-              </div>
+          </div>
+          <div className="flex flex-row items-center justify-start gap-4">
+            <PulsingDot />
+            <div className="text-white">
+              Beginner in UI/UX designing using tools like Figma
             </div>
-            <div className="flex flex-row items-center justify-start gap-3">
-              <PulsingDot />
-              <div className="text-white">
-                Beginner in UI/UX designing using tools like Figma
-              </div>
-            </div>
-            <div className="flex flex-row items-center justify-start gap-3">
-              <PulsingDot />
-              <div className="text-white">
-                Continuous learner, always exploring new technologies
-              </div>
+          </div>
+          <div className="flex flex-row items-center justify-start gap-4">
+            <PulsingDot />
+            <div className="text-white">
+              Continuous learner, always exploring new technologies
             </div>
           </div>
         </div>

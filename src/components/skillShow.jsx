@@ -18,7 +18,7 @@ const SkillShow = () => {
       <div className="skill-container text-sm md:text-2xl grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 place-content-center gap-8">
         <a
           href="https://en.wikipedia.org/wiki/HTML"
-          className="block overflow-hidden flex flex-col justify-center items-center gap-1 bg-blue-900 p-10 rounded-2xl border cursor-default hover:bg-blue-800 hover:shadow-md hover:shadow-blue-700 ease-in-out duration-500 transform hover:translate-y-1 hover: scale-105"
+          className="block overflow-hidden flex flex-col justify-center items-center gap-1 bg-blue-900 p-10 rounded-2xl border cursor-default hover:bg-blue-800 hover:shadow-blue-700 hover:shadow-md ease-in-out duration-500 transform hover:translate-y-1 hover:scale-105"
         >
           <IoLogoHtml5 className="text-5xl" color="rgb(229,77,38)" />
           <p className="text-[rgb(229,77,38)]">HTML</p>
@@ -28,8 +28,8 @@ const SkillShow = () => {
           href="https://en.wikipedia.org/wiki/CSS"
           className="block overflow-hidden flex flex-col justify-center items-center gap-1 bg-blue-900 p-10 rounded-2xl border cursor-default hover:bg-blue-800 hover:shadow-md hover:shadow-blue-700 ease-in-out duration-500 transform hover:translate-y-1 hover: scale-105"
         >
-         <IoLogoCss3 className="text-5xl" color="rgb(38,78,228)" />
-         <p className="text-[rgb(38,78,228)]">CSS</p>
+          <IoLogoCss3 className="text-5xl" color="rgb(38,78,228)" />
+          <p className="text-[rgb(38,78,228)]">CSS</p>
         </a>
 
         <a
@@ -77,7 +77,9 @@ const SkillShow = () => {
           href="https://en.wikipedia.org/wiki/C_(programming_language)"
           className="block overflow-hidden flex flex-col justify-center items-center gap-1 bg-blue-900 p-10 rounded-2xl border cursor-default hover:bg-blue-800 hover:shadow-md hover:shadow-blue-700 ease-in-out duration-500 transform hover:translate-y-1 hover: scale-105"
         >
-          <p className="text-5xl bg-clip-text text-transparent bg-gray-400">C</p>
+          <p className="text-5xl bg-clip-text text-transparent bg-gray-400">
+            C
+          </p>
           <p className="text-[rgb(163,180,198)]">C</p>
         </a>
       </div>

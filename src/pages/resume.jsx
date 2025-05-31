@@ -9,7 +9,7 @@ function Resume() {
       <Navbar />
       <HeroImg2 
         heading="RESUME"
-        text="Highlighting my journey in tech — from code to creation."
+        text="Highlighting my journey in tech: from code to creation."
       />
       <Pdf />
       <Footer />

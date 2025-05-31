@@ -12,7 +12,7 @@ function About() {
 
   return (
     <section className="bg-gray-900 font-outfit">
-      <div className="flex flex-row gap-8 py-12 h-full justify-around items-center px-10">
+      <div className="flex flex-row py-12 px-10 h-full justify-around items-center gap-2">
         <div className="flex flex-col gap-3 items-center place-self-center">
           <h3 className="text-center text-2xl text-green-500">
             user@cybermachine:~$ whoami
@@ -25,14 +25,13 @@ function About() {
             user-friendly and performance optimized solutions.
           </h4>
         </div>
-        <div className="img-container place-self-center">
-          <div className="img flex justify-center">
-            <img
-              className="img max-w-xs md:max-w-md rounded-xl h-[7rem] md:rounded-2xl border-2 md:h-[30rem] "
-              src="https://images.unsplash.com/photo-1618477247222-acbdb0e159b3?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHJlYWN0fGVufDB8fDB8fHww"
-              alt="ImgStack1"
-            />
-          </div>
+
+        <div className="img flex flex-wrap items-left md:flex-nowrap">
+          <img
+            className="img max-w-sm rounded-xl border-2"
+            src="https://images.unsplash.com/photo-1618477247222-acbdb0e159b3?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHJlYWN0fGVufDB8fDB8fHww"
+            alt="ImgStack1"
+          />
         </div>
       </div>
 

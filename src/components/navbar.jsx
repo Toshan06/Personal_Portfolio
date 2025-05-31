@@ -23,7 +23,7 @@ function Navbar() {
     <div className={color ? 'navbar navbar-bg' : 'navbar'}>
       <div className="logo">
         <Link to="/">
-          <h1>TM</h1>
+          <h1 className="font-extrabold">TM</h1>
         </Link>
       </div>
       <ul className={click?'nav-menu text-white':'text-white nav-menu active'}>

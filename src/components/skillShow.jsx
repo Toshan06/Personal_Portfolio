@@ -11,11 +11,11 @@ import { BiLogoMongodb } from "react-icons/bi";
 
 const SkillShow = () => {
   return (
-    <div className="max-w-full flex flex-col gap-16 text-2xl justify-center items-center p-20 bg-gradient-to-b from-gray-900 to-blue-900">
-      <h2 className="text-5xl bg-clip-text text-transparent bg-gradient-to-r from-purple-700 via-blue-500 to-purple-700 font-bold">
+    <div className="max-w-full flex flex-col gap-16 justify-center items-center p-20 bg-gradient-to-b from-gray-900 to-blue-900">
+      <h2 className="text-4xl bg-clip-text text-transparent bg-gradient-to-r from-purple-700 via-blue-500 to-purple-700 font-bold">
         MY SKILLS
       </h2>
-      <div className="skill-container text-md md:text-2xl grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 place-content-center gap-8 text-white">
+      <div className="skill-container text-sm md:text-2xl grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 place-content-center gap-8">
         <a
           href="https://en.wikipedia.org/wiki/HTML"
           className="block overflow-hidden flex flex-col justify-center items-center gap-1 bg-blue-900 p-10 rounded-2xl border cursor-default hover:bg-blue-800 hover:shadow-md hover:shadow-blue-700 ease-in-out duration-500 transform hover:translate-y-1 hover: scale-105"
@@ -67,7 +67,7 @@ const SkillShow = () => {
 
         <a
           href="https://www.python.org/"
-          className="block overflow-hidden flex flex-col justify-center items-center gap-1 bg-blue-900 p-10 rounded-2xl border cursor-default hover:bg-blue-800 hover:shadow-md hover:shadow-blue-700 ease-in-out duration-500 transform hover:translate-y-1 hover: scale-105"
+          className="block overflow-hidden flex flex-col justify-center items-center text-white gap-1 bg-blue-900 p-10 rounded-2xl border cursor-default hover:bg-blue-800 hover:shadow-md hover:shadow-blue-700 ease-in-out duration-500 transform hover:translate-y-1 hover: scale-105"
         >
           <IoLogoPython className="text-5xl" />
           <p className="text-[rgb(255,255,0)]">Python</p>

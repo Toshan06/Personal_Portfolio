@@ -4,7 +4,7 @@ import Hero from '../components/hero'
 import About from "../components/about"
 
 function Home(){
-    return <div>
+    return <div className="overflow-hidden">
         <Navbar/>
         <Hero/>
         <About/>

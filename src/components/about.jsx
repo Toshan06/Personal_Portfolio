@@ -12,19 +12,19 @@ function About() {
 
   return (
     <section className="bg-gray-900 font-outfit">
-      <div className="flex flex-row p-12 h-full">
-        <div className="flex flex-col gap-3 items-start justify-start w-full top-0 left-0">
+      <div className="flex flex-row gap-8 py-12 h-full justify-around items-center px-10">
+        <div className="flex flex-col gap-3 items-center place-self-center">
           <h3 className="text-center text-2xl text-green-500">
             user@cybermachine:~$ whoami
           </h3>
-          <h4 className="text-center text-xl text-gray-400 max-w-2xl">
+          <h4 className="text-left flex text-sm text-gray-400 max-w-2xl md:text-xl">
             I am Toshan Mandal, a passionate Web developer and ML enthusiast who loves turning ideas into interactive and visually appealing web experiences. have a continous drive to learn, and with my knowledge. I would love to contribute in the evergrowing Technology to build user-friendly and performance optimized solutions.
           </h4>
         </div>
-        <div className="img-container max-w-[700px] items-center text-center">
-          <div className="img">
+        <div className="img-container place-self-center">
+          <div className="img flex justify-center">
             <img
-              className="img max-w-[70%] border-2 border-gray rounded-2xl aspect-[4.5/5] md:max-w-[90%] border-2 border-gray rounded-2xl aspect-[4.5/5]"
+              className="img rounded-3xl h-[10rem] md:rounded-xl border-2 max-w-sm md:h-[30rem] "
               src="https://images.unsplash.com/photo-1618477247222-acbdb0e159b3?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHJlYWN0fGVufDB8fDB8fHww"
               alt="ImgStack1"
             />
@@ -32,8 +32,8 @@ function About() {
         </div>
       </div>
 
-      <div className="place-content-center">
-        <div className="max-w-lg md:max-w-3xl lg:max-w-4xl mx-auto bg-gray-900 border rounded-3xl py-12 hover:bg-gray-700 hover:shadow-md hover:shadow-blue-700 ease-in-out duration-500 transform hover:translate-y-1 hover: scale-105">
+      <div className="">
+        <div className="max-w-sm md:max-w-3xl lg:max-w-4xl mx-auto bg-gray-900 border rounded-3xl py-12 hover:bg-gray-700 hover:shadow-md hover:shadow-blue-700 ease-in-out duration-500 transform hover:translate-y-1 hover: scale-105">
           <div className="pb-8 flex justify-center items-center text-3xl bg-clip-text text-transparent bg-gradient-to-r from-purple-700 via-blue-500 to-purple-700 font-bold">
             MY EXPERIENCE
           </div>

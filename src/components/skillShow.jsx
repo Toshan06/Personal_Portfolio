@@ -18,59 +18,67 @@ const SkillShow = () => {
       <div className="skill-container text-md md:text-2xl grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 place-content-center gap-8 text-white">
         <a
           href="https://en.wikipedia.org/wiki/HTML"
-          className="block overflow-hidden flex justify-center bg-blue-900 p-10 rounded-2xl border cursor-default hover:bg-blue-800 hover:shadow-md hover:shadow-blue-700 ease-in-out duration-500 transform hover:translate-y-1 hover: scale-105"
+          className="block overflow-hidden flex flex-col justify-center items-center gap-1 bg-blue-900 p-10 rounded-2xl border cursor-default hover:bg-blue-800 hover:shadow-md hover:shadow-blue-700 ease-in-out duration-500 transform hover:translate-y-1 hover: scale-105"
         >
           <IoLogoHtml5 className="text-5xl" color="rgb(229,77,38)" />
+          <p className="text-[rgb(229,77,38)]">HTML</p>
         </a>
 
         <a
           href="https://en.wikipedia.org/wiki/CSS"
-          className="block overflow-hidden flex justify-center bg-blue-900 p-10 rounded-2xl border cursor-default hover:bg-blue-800 hover:shadow-md hover:shadow-blue-700 ease-in-out duration-500 transform hover:translate-y-1 hover: scale-105"
+          className="block overflow-hidden flex flex-col justify-center items-center gap-1 bg-blue-900 p-10 rounded-2xl border cursor-default hover:bg-blue-800 hover:shadow-md hover:shadow-blue-700 ease-in-out duration-500 transform hover:translate-y-1 hover: scale-105"
         >
-          <IoLogoCss3 className="text-5xl" color="rgb(38,78,228)" />
+         <IoLogoCss3 className="text-5xl" color="rgb(38,78,228)" />
+         <p className="text-[rgb(38,78,228)]">CSS</p>
         </a>
 
         <a
           href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
-          className="block overflow-hidden flex flex-col justify-center bg-blue-900 p-10 rounded-2xl border cursor-default hover:bg-blue-800 hover:shadow-md hover:shadow-blue-700 ease-in-out duration-500 transform hover:translate-y-1 hover: scale-105"
+          className="block overflow-hidden flex flex-col justify-center items-center gap-1 bg-blue-900 p-10 rounded-2xl border cursor-default hover:bg-blue-800 hover:shadow-md hover:shadow-blue-700 ease-in-out duration-500 transform hover:translate-y-1 hover: scale-105"
         >
           <IoLogoJavascript className="text-5xl" color="rgb(255,255,0)" />
+          <p className="text-[rgb(255,255,0)]">JavaScript</p>
           <p></p>
         </a>
 
         <a
           href="https://react.dev/"
-          className="block overflow-hidden flex justify-center bg-blue-900 p-10 rounded-2xl border cursor-default hover:bg-blue-800 hover:shadow-md hover:shadow-blue-700 ease-in-out duration-500 transform hover:translate-y-1 hover: scale-105"
+          className="block overflow-hidden flex flex-col justify-center items-center gap-1 bg-blue-900 p-10 rounded-2xl border cursor-default hover:bg-blue-800 hover:shadow-md hover:shadow-blue-700 ease-in-out duration-500 transform hover:translate-y-1 hover: scale-105"
         >
           <IoLogoReact className="text-5xl" color="rgb(0,255,255)" />
+          <p className="text-[rgb(0,255,255)]">React</p>
         </a>
 
         <a
           href="https://tailwindcss.com/"
-          className="block overflow-hidden flex justify-center bg-blue-900 p-10 rounded-2xl border cursor-default hover:bg-blue-800 hover:shadow-md hover:shadow-blue-700 ease-in-out duration-500 transform hover:translate-y-1 hover: scale-105"
+          className="block overflow-hidden flex flex-col justify-center items-center gap-1 bg-blue-900 p-10 rounded-2xl border cursor-default hover:bg-blue-800 hover:shadow-md hover:shadow-blue-700 ease-in-out duration-500 transform hover:translate-y-1 hover: scale-105"
         >
           <RiTailwindCssFill className="text-5xl" color="rgb(0,255,255)" />
+          <p className="text-[rgb(0,255,255)]">Tailwindcss</p>
         </a>
 
         <a
           href="https://www.mongodb.com/"
-          className="block overflow-hidden flex justify-center bg-blue-900 p-10 rounded-2xl border cursor-default hover:bg-blue-800 hover:shadow-md hover:shadow-blue-700 ease-in-out duration-500 transform hover:translate-y-1 hover: scale-105"
+          className="block overflow-hidden flex flex-col justify-center items-center gap-1 bg-blue-900 p-10 rounded-2xl border cursor-default hover:bg-blue-800 hover:shadow-md hover:shadow-blue-700 ease-in-out duration-500 transform hover:translate-y-1 hover: scale-105"
         >
           <BiLogoMongodb className="text-5xl" color="rgb(18,215,113)" />
+          <p className="text-[rgb(18,215,113)]">MongoDB</p>
         </a>
 
         <a
           href="https://www.python.org/"
-          className="block overflow-hidden flex justify-center bg-blue-900 p-10 rounded-2xl border cursor-default hover:bg-blue-800 hover:shadow-md hover:shadow-blue-700 ease-in-out duration-500 transform hover:translate-y-1 hover: scale-105"
+          className="block overflow-hidden flex flex-col justify-center items-center gap-1 bg-blue-900 p-10 rounded-2xl border cursor-default hover:bg-blue-800 hover:shadow-md hover:shadow-blue-700 ease-in-out duration-500 transform hover:translate-y-1 hover: scale-105"
         >
           <IoLogoPython className="text-5xl" />
+          <p className="text-[rgb(255,255,0)]">Python</p>
         </a>
 
         <a
           href="https://en.wikipedia.org/wiki/C_(programming_language)"
-          className="block overflow-hidden flex justify-center bg-blue-900 p-10 rounded-2xl border cursor-default hover:bg-blue-800 hover:shadow-md hover:shadow-blue-700 ease-in-out duration-500 transform hover:translate-y-1 hover: scale-105"
+          className="block overflow-hidden flex flex-col justify-center items-center gap-1 bg-blue-900 p-10 rounded-2xl border cursor-default hover:bg-blue-800 hover:shadow-md hover:shadow-blue-700 ease-in-out duration-500 transform hover:translate-y-1 hover: scale-105"
         >
-          <p className="text-5xl" color="rgb(163,180,198)">C</p>
+          <p className="text-5xl bg-clip-text text-transparent bg-gray-400">C</p>
+          <p className="text-[rgb(163,180,198)]">C</p>
         </a>
       </div>
     </div>
